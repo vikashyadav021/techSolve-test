@@ -1,0 +1,99 @@
+* {
+  margin: 0px;
+  background-color: #041334;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  /* font-style: normal; */
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 55px;
+  padding-right: 55px;
+}
+
+.nav-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 60px;
+}
+.price {
+  margin: 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding-left: 275px;
+  padding-right: 55px;
+}
+.price-div {
+  margin-top: 30px;
+}
+
+.table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 20px;
+}
+th td {
+  border: 1px;
+  text-align: left;
+  padding: 10px;
+}
+
+.btn {
+  text-align: center;
+  margin: 30px;
+}
+
+.btn button {
+  background-color: aqua;
+  font-size: medium;
+  padding: 10px 35px;
+}
+
+.location-div {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-left: 55px;
+  padding-right: 55px;
+}
+
+.location-div2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.clarity {
+  gap: 0;
+}
+
+.portfolio {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin: 30px;
+}
+
+.footer {
+  margin: 30px;
+  display: flex;
+  gap: 30px;
+  padding-left: 55px;
+  padding-right: 55px;
+  /* justify-content: center;
+ gap: 50px; */
+}
+
+.TnC {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(7, 21, 104);
+}
